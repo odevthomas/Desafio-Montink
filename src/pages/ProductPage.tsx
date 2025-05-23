@@ -7,7 +7,8 @@ import { Toaster } from "@/components/ui/toaster";
 
 const ProductPage: React.FC = () => {
   const mainImage =
-    "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800&q=80";
+  "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom1.jpg?ts=1746011866&ims=1088x",
+  ;
 
   return (
     <div className="min-h-screen bg-gray-50">

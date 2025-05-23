@@ -17,18 +17,16 @@ interface ProductInfoProps {
 }
 
 const ProductInfo: React.FC<ProductInfoProps> = ({
-  id = "tenis-esportivo-1",
-  title = "Tênis Esportivo Premium",
+  id = "camisa-corinthians-2526",
+  title = "Camisa Corinthians I 25/26 s/n Torcedor Nike Masculina - Branco+Preto",
   price = 299.9,
-  description = "Tênis esportivo de alta performance com tecnologia avançada de amortecimento. Ideal para corridas de longa distância e treinos intensos. Material respirável e durável.",
-  sizes = ["36", "37", "38", "39", "40", "41", "42"],
+  description = "Camisa oficial do Corinthians para a temporada 25/26, modelo s/número, confeccionada pela Nike, com tecido leve e respirável para maior conforto durante o uso.",
+  sizes = ["P", "M", "G", "GG", "XGG"],
   colors = [
-    { name: "Preto", hex: "#000000" },
     { name: "Branco", hex: "#FFFFFF" },
-    { name: "Azul", hex: "#0066CC" },
-    { name: "Vermelho", hex: "#CC0000" },
+    { name: "Preto", hex: "#000000" },
   ],
-  image = "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800&q=80",
+  image = "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom1.jpg?ts=1746011866&ims=1088x",
 }) => {
   const [selectedSize, setSelectedSize] = useState<string>("");
   const [selectedColor, setSelectedColor] = useState<string>("");

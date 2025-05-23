@@ -71,5 +71,18 @@
     "tempo-devtools": "^2.0.102",
     "typescript": "^5.8.2",
     "vite": "^6.2.3"
-  }
+  },
+  "description": "Este projeto é uma simulação de uma página de produto de e-commerce, desenvolvido como parte do processo seletivo para a vaga de Desenvolvedor Frontend da Montink.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odevthomas/P-gina-de-Produto---Desafio-Montink.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odevthomas/P-gina-de-Produto---Desafio-Montink/issues"
+  },
+  "homepage": "https://github.com/odevthomas/P-gina-de-Produto---Desafio-Montink#readme"
 }

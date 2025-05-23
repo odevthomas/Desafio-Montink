@@ -6,11 +6,11 @@ interface ProductGalleryProps {
 
 const ProductGallery = ({
   images = [
-    "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800&q=80",
-    "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=800&q=80",
-    "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80",
-    "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
-    "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80",
+    "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom1.jpg?ts=1746011866&ims=1088x",
+    "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom2.jpg?ts=1746011866&ims=1088x",
+    "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom3.jpg?ts=1746011866&ims=1088x",
+    "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom4.jpg?ts=1746011866&ims=1088x",
+    "https://static.shoptimao.com.br/produtos/camisa-corinthians-i-2526-sn-torcedor-nike-masculina/28/JD8-9941-028/JD8-9941-028_zoom5.jpg?ts=1746011866&ims=1088x",
   ],
 }: ProductGalleryProps) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
